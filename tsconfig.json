@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowJs": true,
+
+    "baseUrl": ".",
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "jsx": "react",
+
+    "lib": [
+      "dom",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "noEmit": true,
+
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+
+    "strictPropertyInitialization": false,
+
+    "target": "esnext",
+    "types": ["vitest/globals"]
+  },
+
+  "include": [
+    "src",
+    "test"
+  ],
+
+  "exclude": [
+    ".next",
+    "lib",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+
+# Build
+.next
+dist
+lib
+
+# Logs
+coverage
+.DS_Store

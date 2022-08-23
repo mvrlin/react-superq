@@ -1,0 +1,24 @@
+// Vitest Snapshot v1
+
+exports[`MediaQueryManager > getMediaQueries > should generate and cache queries 1`] = `
+{
+  "desktop": "(min-width: 1024px) and (max-width: 1279px)",
+  "desktopMedium": "(min-width: 1280px) and (max-width: 1599px)",
+  "desktopWide": "(min-width: 1600px)",
+  "mobile": "(min-width: 1px) and (max-width: 374px)",
+  "mobileMedium": "(min-width: 375px) and (max-width: 424px)",
+  "mobileWide": "(min-width: 425px) and (max-width: 767px)",
+  "tablet": "(min-width: 768px) and (max-width: 1023px)",
+}
+`;
+
+exports[`MediaQueryManager > usePreset > should use presets 1`] = `
+{
+  "2xl": "(min-width: 1536px)",
+  "lg": "(min-width: 1024px) and (max-width: 1279px)",
+  "md": "(min-width: 768px) and (max-width: 1023px)",
+  "sm": "(min-width: 640px) and (max-width: 767px)",
+  "xl": "(min-width: 1280px) and (max-width: 1535px)",
+  "xs": "(min-width: 1px) and (max-width: 639px)",
+}
+`;
